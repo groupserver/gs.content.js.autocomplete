@@ -1,4 +1,4 @@
-# coding=utf-8
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 import os
 
@@ -27,7 +27,7 @@ setup(name='gs.content.js.autocomplete',
           'setuptools',
           'gs.content.css',
           'gs.content.form',
-          'gs.content.js.jquery',
+          'gs.content.js.jquery.base',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
