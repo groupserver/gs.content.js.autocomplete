@@ -17,18 +17,17 @@ setup(name='gs.content.js.autocomplete',
       keywords='form type-ahead autocomplete javascript groupserver',
       author='Michael JasonSmith',
       author_email='mpj17@onlinegroups.net',
-      url='http://www.groupserver.org/',
+      url='http://source.iopen.net/groupserver/gs.content.js.autocomplete/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['gs'],
+      namespace_packages=['gs', 'gs.content', 'gs.content.js'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'zope.browserresource',
           'gs.content.css',
-          'gs.content.form',
           'gs.content.js.jquery.base',
-          # -*- Extra requirements: -*-
       ],
       entry_points="""
       # -*- Entry points: -*-
